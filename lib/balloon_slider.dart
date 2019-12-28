@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 import 'RoundedRectangleThumbShape.dart';
 import 'constants.dart';
@@ -14,8 +13,6 @@ class BallonSlider extends StatelessWidget {
     );
   }
 }
-
-enum Direction { LEFT, RIGHT }
 
 class BalloonSlider extends StatefulWidget {
   @override
